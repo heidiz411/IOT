@@ -6,9 +6,9 @@
 #define WIFI_PASSWORD ""
 
 // NETPIE Credentials (ตามที่คุณสร้างใน Dashboard)
-#define CLIENT_ID "56a77258-f2c2-4542-afff-40116c06c006"   // ClientID จาก NETPIE
-#define TOKEN     "SHTunjthh6JunGLxk2bQ3yYw2JxjVeKR"    // Token จาก NETPIE
-#define SECRET    "G7eBBUao3CLM5uQ8JvmxSfVyYxEJGPG5"      // Secret จาก NETPIE
+#define CLIENT_ID "กรอก Client ID จาก NETPIE"   // ClientID จาก NETPIE
+#define TOKEN     "กรอก Token จาก NETPIE"    // Token จาก NETPIE
+#define SECRET    "กรอก Secret จาก NETPIE"      // Secret จาก NETPIE
 
 #define DHTPIN 17
 #define DHTTYPE DHT22

@@ -3,17 +3,17 @@
 #include "DHT.h"
 
 // -------- WiFi --------
-const char* WIFI_SSID     = "Heidiz411-iPhone";
-const char* WIFI_PASSWORD = "0895955456";
+const char* WIFI_SSID     = "WiFi"; // Wifi to connect
+const char* WIFI_PASSWORD = "Password"; // Password to connect
 
 // -------- NETPIE MQTT --------
 const char* MQTT_BROKER = "mqtt.netpie.io";
 const uint16_t MQTT_PORT = 1883; // ถ้าใช้ TLS จะเป็น 8883 (ดูหมายเหตุด้านล่าง)
 
 // *** ใส่ค่าจาก NETPIE Console ของอุปกรณ์คุณ ***
-const char* NETPIE_CLIENT_ID = "56a77258-f2c2-4542-afff-40116c06c006"; // Client ID = Device ID
-const char* NETPIE_TOKEN     = "SHTunjthh6JunGLxk2bQ3yYw2JxjVeKR";     // Username
-const char* NETPIE_SECRET    = "G7eBBUao3CLM5uQ8JvmxSfVyYxEJGPG5";    // Password
+const char* NETPIE_CLIENT_ID = "Client ID = Device ID"; // Client ID = Device ID
+const char* NETPIE_TOKEN     = "Username";     // Username
+const char* NETPIE_SECRET    = "Password";    // Password
 
 // -------- DHT22 --------
 #define DHTPIN  D2       // ใช้ขา D2 (GPIO4)
